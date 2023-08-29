@@ -1,0 +1,18 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "resourceName": {
+      "value": "${{BOT_RESOURCE_NAME}}"
+    },
+    "botAadAppClientId": {
+      "value": "${{MICROSOFT_APP_ID}}"
+    },
+    "botAppDomain": {
+      "value": "${{BOT_DOMAIN}}"
+    },
+    "botAddAppClientSecret": {
+      "value": "${{SECRET_MICROSOFT_APP_PASSWORD}}"
+    }
+  }
+}
